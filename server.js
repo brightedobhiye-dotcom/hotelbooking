@@ -30,10 +30,17 @@ app.use(express.json({
 }));
 
 
-app.listen(Port, () => {
+app.listen(PORT, () => {
     console.log(`server is running on port ${PORT}`)
 });
 
+
+
+const authRoutes = require("./routes/authRoutes")
+
+
+
+app.use("/api/auth", authroutes);
 
 module.exports = connectDB;
 
