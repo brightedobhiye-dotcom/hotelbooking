@@ -17,6 +17,8 @@ const connectDB = async () => {
     }
 }
 
+connectDB()
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.get("/", (req, res) => {
@@ -40,7 +42,7 @@ const authRoutes = require("./routes/authRoutes")
 
 
 
-app.use("/api/auth", authroutes);
+app.use("/api/auth", authRoutes);
 
 module.exports = connectDB;
 
