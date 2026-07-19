@@ -12,7 +12,7 @@ const generateToken = (id, role) => {
 
 exports.registerUser = async (req, res) => {
     try {
-        const { name, email, password, phone} = req.body;
+        const { name, email, password, phone, role} = req.body;
 
     const existingUser = await User.findOne({ email});
     
@@ -22,7 +22,7 @@ exports.registerUser = async (req, res) => {
         })
     }
 
-    const salt = await bcrypt.gensalt(10);
+    const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
     const user = await User.create({
@@ -30,6 +30,7 @@ exports.registerUser = async (req, res) => {
         email,
         password: hashedPassword,
         phone,
+        role,
     });
 
     res.status(201).json({

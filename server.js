@@ -38,11 +38,18 @@ app.listen(PORT, () => {
 
 
 
-const authRoutes = require("./routes/authRoutes")
-
+const authRoutes = require("./routes/authRoutes");
+const adminRoutes = require("./routes/adminRoutes");
+const roomRoutes = require("./routes/roomRoutes");
+const reservationRoutes = require("./routes/reservationRoutes");
+const paymentRoutes = require("./routes/paymentRoutes");
 
 
 app.use("/api/auth", authRoutes);
+app.use("/api/admin", adminRoutes);
+app.use("/api/rooms", roomRoutes);
+app.use("/api/reservations", reservationRoutes);
+app.use("/api/payment", paymentRoutes);
 
 module.exports = connectDB;
 

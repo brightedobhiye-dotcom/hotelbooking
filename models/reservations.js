@@ -4,7 +4,7 @@ const reservationSchema = new mongoose.Schema({
 
 
    
-    user :  {
+    User :  {
         type: mongoose.Schema.Types.ObjectId,
         ref : "user",
         required: true
@@ -40,10 +40,13 @@ const reservationSchema = new mongoose.Schema({
     },
 
 
-    timestamps: true
+   
     
 
    
+},
+{
+    timestamps : true
 }
 
 )

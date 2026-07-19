@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const roomschema = new mongoose.Schema(
+const roomSchema = new mongoose.Schema(
     {
         roomNumber: {
             type : String,
@@ -20,7 +20,7 @@ const roomschema = new mongoose.Schema(
             min : 0
         },
 
-        Status : {
+        status : {
             type : String, 
             enum : ["Available", "Occupied", "Maintenance"],
             default : "Available"

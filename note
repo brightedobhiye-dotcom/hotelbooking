@@ -1,0 +1,163 @@
+//   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNTVmODI5NmY0ZWFhOGQ4ZDE2NDQyMSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc4NDAxODk4NSwiZXhwIjoxNzg0Mjc4MTg1fQ.0Gz2PASBbD1By8XySb7_jM5_UtvnA4IdrAXshBa1yc0",
+
+
+  {
+ "name" : "brighgt",
+  "email" : "brightoo2@gmail.com",
+  "password" : "12345678",
+  "role" : "admin",
+  "phone" : "19023984009"
+}
+
+
+
+//  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNTYwNmIxMzg3NzBkM2M2YjY1NWY4YiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc4NDAyMjczOSwiZXhwIjoxNzg0MjgxOTM5fQ.ILhV4YgXgisap4un37Y-xD3WYSD9wVHkW8avTVy-8wQ",
+
+
+
+//  {
+//   "count": 7,
+//   "rooms": [
+//     {
+//       "status": "Available",
+//       "_id": "6a56096b38770d3c6b655f8e",
+//       "roomNumber": "4010",
+//       "roomType": "Single",
+//       "pricePerNight": 60000,
+//       "Status": "Available",
+//       "images": [
+//         "a2344"
+//       ],
+//       "__v": 0
+//     },
+//     {
+//       "status": "Available",
+//       "_id": "6a5609b338770d3c6b655f90",
+//       "roomNumber": "4013",
+//       "roomType": "Single",
+//       "pricePerNight": 50000,
+//       "Status": "Available",
+//       "images": [
+//         "a2344"
+//       ],
+//       "__v": 0
+//     },
+//     {
+//       "status": "Available",
+//       "_id": "6a560a4038770d3c6b655f91",
+//       "roomNumber": "401A",
+//       "roomType": "Single",
+//       "pricePerNight": 70000,
+//       "Status": "Available",
+//       "images": [
+//         "a2344444"
+//       ],
+//       "__v": 0
+//     },
+//     {
+//       "status": "Available",
+//       "_id": "6a560a8138770d3c6b655f92",
+//       "roomNumber": "402A",
+//       "roomType": "Double",
+//       "pricePerNight": 70000,
+//       "Status": "Available",
+//       "images": [
+//         "a2344444"
+//       ],
+//       "__v": 0
+//     },
+//     {
+//       "status": "Available",
+//       "_id": "6a5614fcb6abb2ff8ef36d2e",
+//       "roomNumber": "301A",
+//       "roomType": "Single",
+//       "pricePerNight": 30000,
+//       "Status": "Available",
+//       "images": [
+//         "nfdjkjblbfldib"
+//       ],
+//       "__v": 0
+//     },
+//     {
+//       "_id": "6a5615db483ea3e0f95a68fa",
+//       "roomNumber": "301B",
+//       "roomType": "Single",
+//       "pricePerNight": 30000,
+//       "status": "Occupied",
+//       "images": [
+//         "nfdjkjblbfldib"
+//       ],
+//       "__v": 0
+//     },
+//     {
+//       "_id": "6a561635483ea3e0f95a68fc",
+//       "roomNumber": "301C",
+//       "roomType": "Single",
+//       "pricePerNight": 30000,
+//       "status": "Occupied",
+//       "images": [
+//         "nfdjkjblbfldib"
+//       ],
+//       "__v": 0
+//     }
+//   ]
+// }
+
+
+
+// count": 2,
+//   "reservations": [
+//     {
+//       "_id": "6a59ce89567a47ca81201b83",
+//       "user": "6a57763ec2e7e3bed06ca028",
+//       "room": {
+//         "_id": "6a561635483ea3e0f95a68fc",
+//         "roomNumber": "301C",
+//         "roomType": "Single",
+//         "pricePerNight": 30000,
+//         "status": "Occupied"
+//       },
+//       "checkInDate": "2026-09-10T00:00:00.000Z",
+//       "checkOutDate": "2026-10-15T00:00:00.000Z",
+//       "totalPrice": 1050000,
+//       "status": "Pending",
+//       "createdAt": "2026-07-17T06:41:13.368Z",
+//       "updatedAt": "2026-07-17T06:41:13.368Z",
+//       "__v": 0
+//     },
+//     {
+//       "_id": "6a59cecd567a47ca81201b84",
+//       "user": "6a57763ec2e7e3bed06ca028",
+//       "room": {
+//         "_id": "6a561635483ea3e0f95a68fc",
+//         "roomNumber": "301C",
+//         "roomType": "Single",
+//         "pricePerNight": 30000,
+//         "status": "Occupied"
+//       },
+//       "checkInDate": "2026-10-20T00:00:00.000Z",
+//       "checkOutDate": "2026-10-28T00:00:00.000Z",
+//       "totalPrice": 240000,
+//       "status": "Pending",
+//       "createdAt": "2026-07-17T06:42:21.400Z",
+//       "updatedAt": "2026-07-17T06:42:21.400Z",
+//       "__v": 0
+//     }
+//   ]
+// }
+
+
+
+
+
+ "reservation": {
+    "user": "6a5775c5c2e7e3bed06ca026",
+    "room": "6a56096b38770d3c6b655f8e",
+    "checkInDate": "2026-01-10T00:00:00.000Z",
+    "checkOutDate": "2026-02-15T00:00:00.000Z",
+    "totalPrice": 2160000,
+    "status": "Pending",
+    "_id": "6a5b3cefd29e1dc4312d0130",
+    "createdAt": "2026-07-18T08:44:31.016Z",
+    "updatedAt": "2026-07-18T08:44:31.016Z",
+    "__v": 0
